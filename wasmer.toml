@@ -1,0 +1,12 @@
+[package]
+name = "syrusakbary/My-awesome-demo-app"
+version = "0.2.4"
+description = "Astro.dev Wasmer starter package"
+readme = "README.md"
+repository = "https://github.com/syrusakbary/My-awesome-demo-app"
+
+[dependencies]
+"wasmer/static-web-server" = "*"
+
+[fs]
+public = "dist"
